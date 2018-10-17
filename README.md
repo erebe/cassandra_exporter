@@ -39,7 +39,7 @@ Every time a tradeoff had to be made, the solution that prioritize one of those 
 - Maintenability: I want the exporter to be able to support multiple version of cassandra (2.2.X/3.X/4.X) without having to hand tune the metrics labels for each version of cassandra. Metrics path change between versions of cassandra and I want to avoid the hustle of 
 
 ##### Why the exporter is not written in GO ?
-- Cassandra metrics are only available trought JMX, which in turn is only available with Java.
+- Cassandra metrics are only available trought JMX, which in turn is only accessible with Java.
 
 ## How to use
 
